@@ -37,9 +37,4 @@ io.on('connection', (socket) => {
         // broadcast new message
         io.sockets.emit('new_message', {message : data.message, username : socket.username});
     });
-
-    io.on('disconnect', () => {
-        console.log('user disconnected');
-    });
 });
-

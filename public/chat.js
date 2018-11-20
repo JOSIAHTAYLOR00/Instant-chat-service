@@ -1,6 +1,7 @@
 $(function(){
     // make connection
-    let socket = io.connect('http://localhost:3000/');
+    // let socket = io.connect('http://localhost:3000/');
+    let socket = io.connect('https://chatroom-app-00.herokuapp.com');
 
     // inputs
     let message = $(".message");

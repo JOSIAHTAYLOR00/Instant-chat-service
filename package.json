@@ -1,0 +1,35 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "A simple application that allows clients to communicate with eachother instantly.",
+  "engines": {
+    "node": "10.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSIAHTAYLOR00/Instant-chat-service.git"
+  },
+  "keywords": [
+    "Instant",
+    "Chat",
+    "Service"
+  ],
+  "author": "Josiah Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOSIAHTAYLOR00/Instant-chat-service/issues"
+  },
+  "homepage": "https://github.com/JOSIAHTAYLOR00/Instant-chat-service#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "git": "^0.1.5",
+    "jquery": "^3.3.1",
+    "socket.io": "^2.1.1"
+  }
+}
